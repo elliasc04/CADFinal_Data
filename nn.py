@@ -137,9 +137,9 @@ def _test(dataloader, model, loss_func):
 
 
 def classify_insurability():
-    train = "Diagnostics_trainHealthy.csv"
-    valid = "Diagnostics_validHealthy.csv"
-    test = "Diagnostics_testHealthy.csv"
+    train = "DataPreProcessing/Diagnostics_trainHealthy.csv"
+    valid = "DataPreProcessing/Diagnostics_validHealthy.csv"
+    test = "DataPreProcessing/Diagnostics_testHealthy.csv"
     train = read_data(train)
     valid = read_data(valid)
     test = read_data(test)
@@ -316,9 +316,9 @@ def _train_reg(dataloader, model, loss_func, optimizer, lamb):
 
 
 def classify_mnist():
-    train = "Diagnostics_trainHealthy.csv"
-    valid = "Diagnostics_validHealthy.csv"
-    test = "Diagnostics_testHealthy.csv"
+    train = "DataPreProcessing/Diagnostics_train.csv"
+    valid = "DataPreProcessing/Diagnostics_valid.csv"
+    test = "DataPreProcessing/Diagnostics_test.csv"
     train = read_data(train)
     valid = read_data(valid)
     test = read_data(test)
@@ -398,9 +398,9 @@ def classify_mnist():
 
 
 def classify_mnist_reg():
-    train = "Diagnostics_train.csv"
-    valid = "Diagnostics_valid.csv"
-    test = "Diagnostics_test.csv"
+    train = "DataPreProcessing/Diagnostics_train.csv"
+    valid = "DataPreProcessing/Diagnostics_valid.csv"
+    test = "DataPreProcessing/Diagnostics_test.csv"
     train = read_data(train)
     valid = read_data(valid)
     test = read_data(test)

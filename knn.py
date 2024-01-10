@@ -113,9 +113,9 @@ def read_data(file_name):
             
 def main():
 
-    train = "Diagnostics_train.csv"
-    valid = "Diagnostics_valid.csv"
-    query = "Diagnostics_test.csv"
+    train = "DataPreProcessing/Diagnostics_train.csv"
+    valid = "DataPreProcessing/Diagnostics_valid.csv"
+    query = "DataPreProcessing/Diagnostics_test.csv"
     train = read_data(train)
     valid = read_data(valid)
     query = read_data(query)

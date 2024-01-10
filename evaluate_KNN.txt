@@ -1,0 +1,11 @@
+Confusion Matrix for KNN:
+[[ 788   37]
+ [  92 1213]]
+
+Recall: [0.9551515151515152, 0.9295019157088122]
+Recall Average: 0.9423267154301638
+
+Precision: [0.8954545454545455, 0.9704]
+Precision Average: 0.9329272727272728
+
+Accuracy: 0.9394366197183098
